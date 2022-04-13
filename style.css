@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(172, 103, 103);
+}
+#board{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+table{
+    table-layout: auto;
+    height: 500px;
+    width: 500px;  
+    border: 5px solid rgb(233, 25, 25);
+}
+.rows{
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;  
+}
+th{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.symbol{
+    height: 80%;
+    width: 80%;
+}
+th:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+.top-one{
+    border-bottom: 3px solid rgb(124, 26, 26);;
+    border-right: 3px solid rgb(124, 26, 26);;
+}
+.top-two{
+    border-bottom: 3px solid rgb(124, 26, 26);;
+    border-right: 3px solid rgb(124, 26, 26);;
+    border-left: 3px solid rgb(124, 26, 26); ;
+}
+.top-three{
+    border-bottom: 3px solid rgb(124, 26, 26);;
+    border-left: 3px solid rgb(124, 26, 26);; 
+}
+.middle-one{
+    border-top: 3px solid rgb(124, 26, 26);;
+    border-right: 3px solid rgb(124, 26, 26);;
+    border-bottom: 3px solid rgb(124, 26, 26); ;
+}
+.middle-two{
+    border: 3px solid rgb(124, 26, 26);
+}
+.middle-three{
+    border-top: 3px solid rgb(124, 26, 26);
+    border-left: 3px solid rgb(124, 26, 26);
+    border-bottom: 3px solid rgb(124, 26, 26) ;
+}
+.bottom-one{
+    border-top: 3px solid rgb(124, 26, 26);
+    border-right: 3px solid rgb(124, 26, 26);
+}
+.bottom-two{
+    border-top: 3px solid rgb(124, 26, 26);
+    border-right: 3px solid rgb(124, 26, 26);
+    border-left: 3px solid rgb(124, 26, 26);
+}
+.bottom-three{
+    border-top: 3px solid rgb(124, 26, 26);
+    border-left: 3px solid rgb(124, 26, 26);
+}
+
+button{
+    display: inline;
+    margin: 1% 0 0 31.7vw;
+    height: 12vh;
+    width: 36.6vw;
+    font-size: 1.5em;
+}
+ button:hover{
+    background-color: rgb(180, 178, 25);
+ }
